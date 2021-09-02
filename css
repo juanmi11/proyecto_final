@@ -1,0 +1,335 @@
+body {
+  background-color: #eda;
+ 
+}
+
+
+
+
+
+    
+    @media screen and (max-width:500px){
+      body {
+        width: 450px;
+      }
+    
+    
+    
+    section {
+     width: 375px;
+     font-size: 10px;
+     }
+     
+     .nav {
+      display: flex; 
+      flex-direction: column;    
+      
+    }
+     
+    
+     h1 {
+       margin-top: 150px;
+     }
+     ul {
+       margin-top: -110px;
+       
+
+     }
+     
+     
+    
+    .items-nav {
+      
+      
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between;
+      
+      
+      
+      }
+      
+  
+.imagen_del_principio{
+ width: 300px;
+ height: 300px;
+ margin-left: 100px;
+ margin-bottom: -110px;
+  
+}
+
+
+
+
+
+
+    }     
+
+     
+
+
+
+@media screen and (min-width: 505px)  {
+  .item {
+    width: 70%;
+  }
+  nav {
+    height: 120px;
+  }  
+}
+
+
+@media screen and (min-width: 700px)  {
+  .item {
+    width: 100%;
+  }
+    nav {  
+    height: 75px;
+    justify-content: flex-start;
+  }
+  
+}
+@media screen and (min-width:980px) {
+  .item {
+    width: 30%;
+  }
+}
+@media screen and (min-width:1040px)  {
+  .marco {
+    margin-bottom: 100px;
+  }
+  .class-header {
+    float: inline; 
+
+  }
+}
+@media screen and (min-width:1200px) {
+  
+  
+  .item {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  
+}
+  
+
+
+ul {
+  list-style-type: none;
+  margin-left: 30px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #444;
+  position: fixed;
+  
+  
+  
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 20px ;
+  text-decoration: none;
+   font-family: 'Solway', serif;
+  font-size: 16px; ;
+  
+  
+}
+
+li a:hover {
+  background-color: #113;
+}
+.activo {
+  background-color: #005;
+}
+
+
+
+
+
+.inicio {
+  font-size: 80px;
+  text-align: center;
+}
+/* titulos y subtitulos */
+h2 {
+  font-size: 40px;
+}
+        .subtitulo {
+          font-size: 24px;
+        }
+
+   .segundo_subtitulo {
+   font-size: 22px;
+  }
+  .tercer_subtitulo {
+    font-size: 21px
+  }
+
+
+
+/* letra y borde de el contenido del principio */
+.bordes_de_cosas {
+  
+  border-radius: 15px;
+  border:solid;
+  padding-left: 25px;
+  padding-right: 0px;
+  margin-left: 10px;
+  border-color: #000;
+  width: 90%;
+  margin-bottom: 30px;
+
+  /* fondo */
+  background-color: rgba(65, 105, 225, 0.418);
+}
+
+
+
+
+
+
+
+/* css para los reinos */
+.asgard {
+  background-color: #057;
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px ;
+
+
+}
+.muspelheim {
+  background-color: rgb(122, 44, 44);
+  
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px ;
+}
+.helheim {
+  background-color: rgb(19, 77, 72);
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px ;
+}
+.niflheim {
+  background-color: rgb(14, 74, 109);
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px 
+}
+.Svartálfaheim {
+  background-color: rgb(44, 38, 133);
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px 
+
+}
+.alfheim {
+  background-color: rgb(117, 52, 19);
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px 
+}
+.vanaheim {
+  background-color: rgb(101, 180, 11);
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px 
+}
+.Jötunheim {
+  background-color: rgb(112, 106, 103);
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px 
+}
+.midgard {
+  background-color: rgb(87, 29, 0);
+  border: solid;
+  border-color: #000;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px 
+}
+
+
+
+    
+        
+            /*letra de mis parrafos  */
+        p{
+            
+        font-family: 'Solway', serif;
+          font-size: 18px;
+          
+        }
+        
+        
+        /* pie de la pagina */
+        footer {
+          width: 1800px ; 
+          height: 600px
+        }
+
+         /* imagenes */
+        .imagen_del_final {
+          width: 300px;
+          height: 300px;
+        }
+        img{
+       width: 300px;
+      height: 300px;
+      
+
+
+      }
+      .imagen_del_principio {
+  width: 500px;
+  height: 500px;
+  margin-left: 37%;
+}
